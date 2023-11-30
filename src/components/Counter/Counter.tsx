@@ -6,7 +6,7 @@ interface CounterProps {
   initialCount?: number;
 }
 
-function Counter({ initialCount = 99 }: CounterProps) {
+function Counter({ initialCount = 1000 }: CounterProps) {
   const [count, setCount] = useState(initialCount);
 
   const increment = () => {

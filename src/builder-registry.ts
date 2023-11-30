@@ -8,6 +8,7 @@ Builder.registerComponent(Counter, {
     {
       name: "initialCount",
       type: "number",
+      friendlyName: "ReallyCoolCounter",
     },
   ],
 });
