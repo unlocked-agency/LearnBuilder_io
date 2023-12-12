@@ -10,4 +10,3 @@ export default function InputText({initialValue = "Hello Cory"}:{
     return (<input type= "text" value={value} onChange={handleChange} />)
 
 };
-// 24:42 Start Video to start expoloring functionality
